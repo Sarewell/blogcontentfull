@@ -4,13 +4,11 @@ import Foooter from '../footer/Foooter'
 
 
 
-export default function Layout() {
+export default function Layout({children}) {
   return (
     <div>
         <NavBar/>
-          <main>
-            {children}
-          </main>
+          <main>{children}</main>
         <Foooter/>
 
     </div>
