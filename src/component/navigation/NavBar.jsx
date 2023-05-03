@@ -3,8 +3,9 @@ import React from 'react'
 
 export default function NavBar() {
   return (
-    <div>
-        <ul className='flex'>
+    <div className='flex justify-between'>
+      <h1 className='font-black text-white'>Read<span className='text-yellow-400'>it</span>.</h1>
+        <ul className='flex justify-end gap-5'>
             <Link href='/'>
               <li>home</li>
             </Link>
